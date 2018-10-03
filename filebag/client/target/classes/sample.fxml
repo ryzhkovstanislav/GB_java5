@@ -1,0 +1,17 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.PasswordField?>
+<VBox id="mainWindow" fx:controller="company.ryzhkov.client.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <VBox alignment="CENTER" fx:id="authBox">
+        <TextField fx:id="username" maxWidth="300" promptText="Имя пользователя"/>
+        <PasswordField fx:id="password" maxWidth="300" promptText="Пароль"/>
+        <Button styleClass="button" fx:id="sendButton" onAction="#sendUsernameAndPassword" maxWidth="300" text="Войти"/>
+    </VBox>
+</VBox>

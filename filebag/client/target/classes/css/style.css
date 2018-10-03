@@ -1,0 +1,20 @@
+#mainWindow {
+    -fx-background-color: #1c2331;
+}
+
+TextField {
+    -fx-font-size: 18;
+}
+
+PasswordField {
+    -fx-font-size: 18;
+}
+
+Button {
+    -fx-background-color: #007e33;
+    -fx-font-size: 18;
+}
+
+.buttonLoad {
+    -fx-background-color: #777777;
+}
